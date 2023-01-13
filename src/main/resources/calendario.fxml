@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="L" />
+            <Label text="M" GridPane.columnIndex="1" />
+            <Label text="X" GridPane.columnIndex="2" />
+            <Label text="J" GridPane.columnIndex="3" />
+            <Label text="V" GridPane.columnIndex="4" />
+            <Label text="S" GridPane.columnIndex="5" />
+            <Label text="D" GridPane.columnIndex="6" />
+            <Label fx:id="unoLabel" GridPane.rowIndex="1" />
+            <Label fx:id="dosLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="tresLabel" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="cincoLabel" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="ochoLabel" GridPane.rowIndex="2" />
+            <Label fx:id="nueveLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="veintinueveLabel" GridPane.rowIndex="5" />
+            <Label fx:id="veintidosLabel" GridPane.rowIndex="4" />
+            <Label fx:id="quinceLabel" GridPane.rowIndex="3" />
+            <Label fx:id="dieciseisLabel" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="veintitresLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="treintaLabel" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="diezLabel" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="veinticuatroLabel" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="treintaiunoLabel" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="onceLabel" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="dieciochoLabel" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="veinticincoLabel" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="treintaidosLabel" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label fx:id="doceLabel" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label fx:id="diecinueveLabel" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="veintiseisLabel" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Label fx:id="treintaitresLabel" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Label fx:id="seisLabel" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="treceLabel" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Label fx:id="veinteLabel" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="veintisieteLabel" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Label fx:id="treintaicuatroLabel" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Label fx:id="sieteLabel" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="catorceLabel" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Label fx:id="veintiunoLabel" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Label fx:id="veintiochoLabel" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Label fx:id="treintaicincoLabel" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Label fx:id="cuatroLabel" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="diecisieteLabel" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="treintaiseisLabel" GridPane.rowIndex="6" />
+            <Label fx:id="treintaisieteLabel" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="treintaiochoLabel" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="treintainueveLabel" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label fx:id="cuarentaLabel" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Label fx:id="cuarentaiunoLabel" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Label fx:id="cuarentaidosLabel" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Label fx:id="mesLabel" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
